@@ -1,0 +1,35 @@
+box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+#colors {
+    background-color: yellow;
+    transition: background-color 3s linear 1s;
+}
+
+#colors:hover {
+    background-color: deeppink;
+}
+
+#box1 {
+    background-color: green;
+    transition: width 2s;
+}
+
+#box1:hover {
+    width: 300px;
+}
+
+#box2 {
+    background-color: black;
+    transition: height 2s, width 2s;
+    transition: border-radius 5s;
+}
+
+#box2:hover {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+}
