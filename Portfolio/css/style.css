@@ -1,0 +1,196 @@
+/*
+* General styles - START
+*
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sance', sans-serif;
+}
+
+section {
+    padding: 120px;
+}
+
+h1 {
+    color: #007bff;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0;
+}
+
+hr {
+    width: 70px;
+    border-top: 2px solid #007bff;
+    opacity: 0.7;
+/*    padding-bottom: 20px;*/
+    padding: 0 40px 0 0;
+    box-shadow: 0;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.naglowek {
+    font-size: 24px;
+    color: #333;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+}
+/*
+* SEKCJA HEADER
+*
+*/
+
+
+#header {
+    display: flex;
+    height: 70vh;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#blockheader {
+    text-align: center;
+}
+
+p#skills {
+    color: #777;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+
+.menu-main {
+    background-color: #007bff;
+    position: sticky;
+    top: 0;
+}
+
+ul.menu {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+li.menu-item {
+    display: inline-block;
+}
+
+.menu-item a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.btn {
+    padding: 15px 20px;
+    border: 2px solid #007bff;
+    color: #333;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    padding: 15px 20px;
+    border: 2px solid #007bff;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+/*
+* SEKCJA O MNIE
+*
+*
+*/
+
+#o-mnie {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+img#avatar {
+    border-radius: 50%;
+}
+
+p#omnie2 {
+    padding: 30px;
+}
+
+/*
+* PORTFOLIO
+*
+*/
+
+
+#portfolio {
+    background-color: #f2f1ed;
+}
+
+#portfolio-wraper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria {
+    flex-basis: 25%;
+    margin: 0;
+}
+
+.galeria img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*
+* FOOTER
+*
+*/
+
+#footer {
+    background-color: #f2f1ed;
+    text-align: center;
+    height: 50px;
+}
+
+p#stopka {
+    padding: 20px;
+    font-size: 14px;
+}
+    
+.overlay {
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+    opacity: 0;
+  transition: .5s ease;
+         background-color: #007bff;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
