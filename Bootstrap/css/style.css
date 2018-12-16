@@ -1,0 +1,68 @@
+body {
+   font-family: 'Raleway', sans-serif;
+}
+
+h2, #naglowek-formularza, btn{
+   color: white;
+}
+
+.dark-text {
+   color: #888;
+}
+
+.light-text {
+   color: #c2c2c2;
+}
+a {
+  color: #e38f42;
+}
+
+.srodek {
+   text-align: center;
+   font-size: 18px;
+}
+#formularz {
+   height: 90vh;
+   background-image: url('../img/form-background.jpg');
+   background-size: cover;
+}
+
+#naglowek-formularza {
+   background-color: rgba(0,0,0, 0.35);
+   padding: 20px;
+}
+
+#stopka {
+   height: 60vh;
+   background: #f8f8f8;
+}
+
+#filmik {
+   height: 60vh;
+   background: #fff;
+}
+
+.button-or {
+   background-color: #e38f42;
+   border-radius: 0px;
+   border: #e38f42;
+}
+.button-form {
+   display: block;
+}
+
+.button-alfa {
+   background-color: rgba(0,0,0, 0.3);
+   border-radius: 0px;
+   border: none;
+  
+}
+
+#form-tlo {
+   background-color:  rgba(0,0,0, 0.3);
+   padding: 20px;
+}
+
+.druga-sekcja {
+   text-align: center;
+}
