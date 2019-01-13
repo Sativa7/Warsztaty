@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body {
+   background-color: #fff;
+   font-family: 'Raleway', sans-serif;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   font-family: 'Raleway', sans-serif;
+}
+
+.klocek {
+   background-color: rgb(255,255,255, 0.6);
+   height: 40px;
+   width:320px;
+   border-radius: 4px;
+   margin-bottom: 8px;
+   color: #030f88;
+   list-style-type: none;
+   margin-right: 0;
+   text-align: center;
+}

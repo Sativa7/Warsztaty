@@ -1,0 +1,10 @@
+@import "zmienne";
+@import "mixins";
+
+body {
+   font-family: $main-font;
+}
+
+#formularz {
+   background-image: url(img/background.png);
+}

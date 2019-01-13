@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body {
+   background-color: #6acdfd;
+   font-family: 'Raleway', sans-serif;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
+.usersbtn {
+   width: 100px;
+   height: 32px;
+   color: white;
+   background-color: #105fdf;
+   font-weight: 900;
+   font-family: 'Raleway', sans-serif;
+   font-size: 14px;
+   border: none;
+   margin-left: 10px;
+   margin-right:0;
+   outline:none;
+   transform: translateY(-1px);
+   border-radius: 4px;
+}
+
+.usersbtn:hover {
+background-color: #126bfb
+}
+
+.usersinp {
+   width: 200px;
+   height: 32px;
+   padding-left: 10px;
+   font-size: 14px;
+   border: none;
+   outline:none;
+   border-radius: 4px;
+}
+
+h1 {
+   color :#030f88;
+   font-size: 30px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 900;
+}
+
+.klocek {
+   background-color: rgb(255,255,255, 0.6);
+   height: 40px;
+   width:320px;
+   border-radius: 4px;
+   margin-bottom: 8px;
+   color: #030f88;
+   list-style-type: none;
+   margin-right: 0;
+   text-align: center;
+}
+
+.klocek:hover {
+   background-color: rgba(255, 146, 146, 0.8);
+   color: darkred;
+}
+
+.wrap{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+
+}
+
+ul {
+   padding: 0;
+}
+
+input {
+   padding: 0;
+}
